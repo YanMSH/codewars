@@ -3,10 +3,6 @@ export const bouncingBall = (
   bounce: number,
   window: number
 ): number => {
-  console.log("height", h);
-  console.log("bounce", bounce);
-  console.log("window", window);
-
   if (h < 0 || bounce < 0 || bounce > 1 || window >= h) {
     return -1;
   }
